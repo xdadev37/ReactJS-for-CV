@@ -1,0 +1,19 @@
+.bgc {
+  text-align: center;
+  height: 73.4vh;
+  padding: 10%;
+}
+
+.p {
+  text-decoration: none;
+  font-size: xx-large;
+  font-weight: bold;
+  text-shadow: 10px 10px 1em #000;
+}
+
+@media only screen and (min-width: 768px) {
+  .bgc {
+    flex-direction: row;
+    min-height: 86vh;
+  }
+}

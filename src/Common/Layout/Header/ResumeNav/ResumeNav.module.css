@@ -1,0 +1,83 @@
+.NavLink {
+  text-decoration: none;
+  color: #000;
+  border-radius: 18px;
+  background-color: #fff;
+  width: 10em;
+  text-align: center;
+  margin-right: 1em;
+  opacity: 0.8;
+}
+
+.NavLink:hover {
+  opacity: 1;
+}
+
+.dropDown {
+  display: flex;
+  border-radius: 18px;
+  flex-direction: row;
+  line-height: 200%;
+  background-color: #000;
+  padding: 3%;
+  position: absolute;
+  box-shadow: 1px 1px 1em;
+  opacity: 0;
+  margin-right: -14%;
+  visibility: hidden;
+  z-index: 100;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition-duration: 0.7s;
+}
+
+.dropDown::before {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #000;
+}
+
+.activeNavLink {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 576px) {
+  .dropDown {
+    flex-direction: column;
+    margin-top: 7%;
+  }
+  
+  .dropDown::before {
+    margin-top: -15%;
+  }
+  
+  .NavLink {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .dropDown {
+    margin-top: 3%;
+  }
+  
+  .dropDown::before {
+    margin-top: -7%;
+    margin-right: 15%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .dropDown {
+    margin-top: 1%;
+  }
+  
+  .dropDown::before {
+    margin-top: -10.9%;
+    margin-right: 30%;
+  }  
+}

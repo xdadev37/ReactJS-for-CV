@@ -1,0 +1,9 @@
+.Logo {
+  color: #fff;
+}
+
+@media only screen and (max-width: 576px) {
+  .Logo {
+    display: none;
+  }
+}

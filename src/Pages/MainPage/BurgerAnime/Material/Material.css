@@ -1,0 +1,20 @@
+.meat {
+  border: 1em solid #702e05;
+  border-radius: 7%;
+  box-shadow: 1px 1px 1em #702e05;
+  margin: 5% 0;
+}
+
+.cheese {
+  border: 0.5em solid #ffff00;
+  border-radius: 90% 0;
+  margin-bottom: 3%;
+  box-shadow: 1px 1px 1em #ffff00;
+}
+
+.salad {
+  border: 0.5em solid #adff2f;
+  border-radius: 90% 0;
+  box-shadow: 1px 1px 1em #adff2f;
+  margin-bottom: 3%;
+}

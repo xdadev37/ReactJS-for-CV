@@ -1,0 +1,15 @@
+.Container {
+    width: 10%;
+    color: #fff;
+}
+
+.text {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    line-height: 200%;
+}
+
+.text:hover {
+    opacity: 0.9;
+}

@@ -1,0 +1,28 @@
+.Header {
+  padding: 0 1.5em;
+  height: 4em;
+  align-items: center;
+  display: flex;
+  background-color: #000;
+}
+
+.NavLink {
+  margin-right: 3em;
+  text-decoration: none;
+  color: #ccc;
+  padding: 0.5% 1%;
+}
+
+.NavLink:hover {
+  color: #fff;
+}
+
+.activeNavLink {
+  color: #fff;
+}
+
+@media only screen and (max-width:576px) {
+  .NavLink {
+    margin-right: 1em;
+  }
+}
